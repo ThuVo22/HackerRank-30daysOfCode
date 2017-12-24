@@ -12,7 +12,7 @@ public class Day11 {
         }
         
         int sum=0;
-        int maxSum = 0;
+        int maxSum = Integer.MIN_VALUE;
      
         for (int i=0; i<arr.length-2; i++){
             for (int j=0; j<arr[0].length-2; j++){

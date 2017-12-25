@@ -35,7 +35,7 @@ class Student extends Person{
         }
          double avg = sum/ testScores.length;
     
-            if (avg >=90 && avg <100){
+            if (avg >=90 && avg <=100){
                 return "O";
             }else if (avg >=80 && avg <90){
                 return "E";
